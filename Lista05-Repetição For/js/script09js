@@ -1,0 +1,6 @@
+// Crie um programa que peça ao usuário um número inteiro N e mostre os números de 1 até N.
+
+let limite = parseInt(prompt("Digite um número:"));
+for (let numero = 1; numero <= limite; numero++) {
+  console.log(numero);
+}
